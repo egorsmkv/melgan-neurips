@@ -33,7 +33,7 @@ Run these commands:
 ## Training Example
     . source set_env.sh 0
     # Set PYTHONPATH and use first GPU
-    python scripts/train.py --save_path logs/baseline --path <root_data_folder>
+    python scripts/train.py --save_path logs/baseline --data_path <root_data_folder>
 
 
 ## PyTorch Hub Example
